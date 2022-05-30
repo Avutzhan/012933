@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "c467f3b7-6d1e-4f1b-a27e-1a32a49b4a46",
+		"name": "012833",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/articles?key=012933&from=2020-05-30 06:35:44&to=2023-05-30 06:35:44&tag_active=true&order_by=created_at&direction=desc&search_by_tag_name=algos&search_by_title=second",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?key=012933&from=2020-05-30 06:35:44&to=2023-05-30 06:35:44&tag_active=true&order_by=created_at&direction=desc&search_by_tag_name=algos&search_by_title=second",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "012933"
+						},
+						{
+							"key": "from",
+							"value": "2020-05-30 06:35:44"
+						},
+						{
+							"key": "to",
+							"value": "2023-05-30 06:35:44"
+						},
+						{
+							"key": "tag_active",
+							"value": "true"
+						},
+						{
+							"key": "order_by",
+							"value": "created_at"
+						},
+						{
+							"key": "direction",
+							"value": "desc"
+						},
+						{
+							"key": "search_by_tag_name",
+							"value": "algos"
+						},
+						{
+							"key": "search_by_title",
+							"value": "second"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
